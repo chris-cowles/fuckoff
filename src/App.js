@@ -1,13 +1,20 @@
 import './App.css';
-import CallChance from './CallChance/CallChance.js';
-import CallCat from './CallCat/CallCat.js';
-
+import Card from './Card/Card.js';
+import Button from './Button/Button.js'
 
 function App() {
     return (
-        <div>
-            <CallCat /> 
-            <CallChance />
+
+        <div className="appConatainer">
+            <span className="wireLeft"></span>
+            <span className="nail"></span>
+            <span className="wireRight"></span>
+            <div className="frame">
+                <div className="blackBorder">
+                    <Card />
+                </div>
+            </div>
+            <Button />
         </div>
     );
 }
