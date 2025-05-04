@@ -5,7 +5,7 @@ const CallCat = () => {
 
     const fetchCatImage = async () => {
         try {
-            const response = await fetch('https://cataas.com/cat?position=center&width=500&height=500');
+            const response = await fetch('https://cataas.com/cat?position=center&width=600&height=400');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
