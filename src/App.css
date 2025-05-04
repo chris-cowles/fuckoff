@@ -32,7 +32,31 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+.appContainer {
+  background-color: red;
+}
+
+.blackBorder {
+  background-color: black;
+  margin-top: calc(8px + 1.5625vw);
+  margin-bottom: calc(8px + 1.5625vw);
+  margin-left: calc(10px + 1.5625vw);
+  margin-right: calc(10px + 1.5625vw);
+  padding: calc(8px + 1.5625vw);
+}
+
+@media (min-width: 1000px) {
+  .blackBorder {
+    margin-top: calc(8px + 1.5625vw);
+    margin-bottom: calc(8px + 1.5625vw);
+    margin-left: calc(250px + 1.5625vw);
+    margin-right: calc(250px + 1.5625vw);
+    padding-top: calc(20px + 1.5625vw);
   }
 }

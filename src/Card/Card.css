@@ -1,13 +1,29 @@
 .card{
-    padding-top: 3%;
-
+    padding-top: 0%;
+    margin: auto;
 }
 
 .card-content{
     text-align: center;
+    font-family: 'Garamond','Times New Roman', Times, serif;
+    color: white;
 }
 
 .card-image-container img{
     display: block;
     margin: auto;
+    color: white;
+    border-width: thin;
+    border-style: solid;
+    border-spacing: 2rem;
+}
+
+.quote-text {
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.quote-author {
+    font-size: 1.5rem;
 }

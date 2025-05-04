@@ -7,11 +7,12 @@ export default function Button() {
   };
 
   return (
-    <button 
+    <div className='button'>
+      <button 
       onClick={handleRefresh}
-      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
     >
       Motivate Me
     </button>
+      </div>
   );
 }
