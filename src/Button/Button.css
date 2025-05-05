@@ -1,4 +1,27 @@
-button{
-    display: block;
+button {
+    background-color: #d4cfc5;
     margin: auto;
+    text-align: center;
+    font: bold 1rem arial, sans-serif;
+    color: #665f55;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    
 }
+.button {
+    margin: auto;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    /* TEXT */
+    text-align: center;
+    font: bold 1rem arial, sans-serif;
+    color: #968f84;
+    transition: box-shadow 0.02s cubic-bezier(0.79, 0.03, 0.43, 1);
+}
+
+.button:active {
+    transition: box-shadow 0.1s cubic-bezier(0, 0, 0, 1);
+}
+
