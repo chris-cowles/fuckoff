@@ -85,12 +85,12 @@ function CallChance() {
                     {messageType === 'quote' ? (
                         <>
                             <p className="quote-text">"{message.content}"</p>
-                            <p className="quote-author">- {message.author}</p>
+                            <p className="quote-author"> - {message.author} -</p>
                         </>
                     ) : (
                         <>
                             <p className="quote-text">{message.message}</p>
-                            <p className="quote-author">{message.subtitle}</p>
+                            <p className="quote-author">{message.subtitle} -</p>
                         </>
                     )}
                 </div>
