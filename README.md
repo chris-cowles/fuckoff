@@ -14,5 +14,4 @@ https://github.com/lukePeavey/quotable
 ```
 npm install
 npm start
-
 ```
