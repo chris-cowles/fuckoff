@@ -8,6 +8,11 @@ https://api.websitecarbon.com/
 
 https://cataas.com/
 
-https://www.quoterism.com/developer
+https://github.com/lukePeavey/quotable
 
+## How to run
+```
+npm install
+npm start
 
+```
